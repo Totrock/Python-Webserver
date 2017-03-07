@@ -1,3 +1,1 @@
-print("guuud")
-print("wuuuuut")
-print("hallo")
+print("test")
