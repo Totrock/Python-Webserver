@@ -24,6 +24,7 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
 
 
 
+        #https://stackoverflow.com/questions/7100125/storing-python-dictionaries
         with open('data.json', 'w') as jsontemp:
             json.dump(post_data, jsontemp, indent=3)
 
